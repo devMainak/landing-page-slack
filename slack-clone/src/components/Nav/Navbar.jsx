@@ -1,3 +1,6 @@
+import NavFreeBtn from "./NavFreeBtn";
+import NavSalesBtn from "./NavSalesBtn";
+
 const Navbar = () => {
   const navOptions = ["Product", "Enterprise", "Resources", "Pricing"];
 
@@ -37,16 +40,18 @@ const Navbar = () => {
         </div>
         <div className="d-flex gap-4">
           <div>
-            <span className="fw-bold"><i class="fa-solid fa-magnifying-glass"></i></span>
+            <span className="fw-bold">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </span>
           </div>
           <div>
             <span className="nav-links fw-bold">Sign in</span>
           </div>
           <div>
-            <button className="nav-btn-outline fw-bold py-1 px-2">TALK TO SALES</button>
+            <NavSalesBtn />
           </div>
           <div>
-            <button className="nav-btn-solid fw-bold py-1 px-2">TRY FOR FREE</button>
+            <NavFreeBtn />
           </div>
         </div>
       </div>

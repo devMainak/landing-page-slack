@@ -1,12 +1,9 @@
 :root {
-  --primary-bg: #fafaf9;
+  --primary-bg: #fffbeb;
+  background-color: var(--primary-bg);
 }
 
-.app {
-  background-color: var(--primary-bg);
-  width: 100vw;
-  height: 100vh;
-}
+
 
 /* navbar */
 .nav-links {
@@ -28,4 +25,94 @@
   border-radius: 5px;
   color: white;
   font-size: small;
+  border-color: purple;
+}
+
+/* alert */
+.alert-body {
+  background-color: #0369a1;
+  color: white;
+  border-radius: 30px;
+}
+
+.alert-link {
+  text-decoration: underline;
+}
+
+.sec-btn-free {
+  background-color: purple;
+  border-radius: 5px;
+  color: white;
+  font-size: small;
+  border-color: purple;
+}
+
+.sec-btn-google {
+  background-color: #0284c7;
+  color: white;
+  border-radius: 5px;
+  font-size: small;
+  border-color: #0284c7;
+}
+
+.google-btn-icon {
+  height: 30px;
+  width: 30px;
+}
+
+.sec-btn-video {
+  border: 2px solid purple;
+  border-radius: 5px;
+  color: purple;
+  background-color: var(--primary-bg);
+  font-size: small;
+}
+
+.sec-layout {
+  max-width: 40%;
+  max-height: 500px;
+}
+
+/* logo-list */
+.company-logo {
+  max-height: 100px;
+  max-width: 180px;
+}
+
+
+.cookie-popup {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: white;
+  color: black;
+  padding: 15px;
+  border-radius: 8px;
+  max-width: 300px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.cookie-popup p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.cookie-popup .btn {
+  background: purple;
+  border: none;
+  padding: 8px 12px;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.cookie-popup .btn-close {
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: black;
+  cursor: pointer;
 }
