@@ -1,6 +1,6 @@
 const NavSalesBtn = () => {
   return (
-    <button className="nav-btn-solid fw-bold py-1 px-2">TRY FOR FREE</button>
+    <button className="nav-btn-outline fw-bold py-1 px-2">TALK TO SALES</button>
   );
 };
 

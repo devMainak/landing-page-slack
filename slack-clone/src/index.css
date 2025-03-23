@@ -1,9 +1,10 @@
 :root {
   --primary-bg: #fffbeb;
-  background-color: var(--primary-bg);
 }
 
-
+body {
+  background-color: var(--primary-bg) !important;
+}
 
 /* navbar */
 .nav-links {
@@ -78,7 +79,6 @@
   max-height: 100px;
   max-width: 180px;
 }
-
 
 .cookie-popup {
   position: fixed;
