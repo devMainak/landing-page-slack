@@ -1,0 +1,31 @@
+:root {
+  --primary-bg: #fafaf9;
+}
+
+.app {
+  background-color: var(--primary-bg);
+  width: 100vw;
+  height: 100vh;
+}
+
+/* navbar */
+.nav-links {
+  text-decoration: none;
+  color: black;
+  font-size: small;
+}
+
+.nav-btn-outline {
+  border: 2px solid purple;
+  border-radius: 5px;
+  color: purple;
+  background-color: var(--primary-bg);
+  font-size: small;
+}
+
+.nav-btn-solid {
+  background-color: purple;
+  border-radius: 5px;
+  color: white;
+  font-size: small;
+}
